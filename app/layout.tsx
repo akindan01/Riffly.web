@@ -16,7 +16,7 @@ const body = Instrument_Sans({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riffly.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riffly.click";
 
 export const viewport: Viewport = {
   themeColor: "#000000",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/og-riffly.png",
+        url: "/public/riffly.png",
         width: 1200,
         height: 630,
         alt: "Riffly — Your music life, finally in flow",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     title: "Riffly | Your music life, finally in flow",
     description:
       "Gigs, setlists, practice, and invoices together in one app built for working musicians.",
-    images: ["/images/og-riffly.png"],
+    images: ["/public/riffly.png"],
     creator: "@rifflyapp",
   },
   robots: {
