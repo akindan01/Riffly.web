@@ -41,6 +41,7 @@ export default function Pricing() {
 
   const freeFeatures = [
     "Unlimited pratice logging",
+    "Unlimited Networking",
       "Up to 2 practice goals",
       "Up to 2 active gigs",
       "Up to 2 setlists",
@@ -52,6 +53,7 @@ export default function Pricing() {
       "Unlimited gigs – Book as many gigs as you want. No 2-gig limit.",
       "Unlimited setlists – Create unlimited setlists for every performance.",
       "Unlimited invoices – Bill every gig without limit.",
+     "Unlimited Networking",
   ];
 
   return (
