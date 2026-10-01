@@ -5,7 +5,8 @@ import { FadeIn, TextReveal, PageTransition } from "@/components/motion";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Riffly Privacy Policy and information on how we handle your music, gig, and practice data.",
+  description:
+    "Read Riffly's Privacy Policy to learn how we collect, use, store, and protect account, gig, practice, invoice, and profile information.",
 };
 
 export default function PrivacyPolicy() {
