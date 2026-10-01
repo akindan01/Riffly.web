@@ -122,56 +122,51 @@ export const FEATURES: FeatureItem[] = [
   },
 ];
 
-export interface FAQItem {
-  question: string;
-  answer: string;
-}
-
 export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "What is Riffly?",
     answer:
-      "Riffly is a focused mobile tool designed for working musicians and music creatives. It brings together your gigs, setlists, practice logs, invoices, and musician connections into one streamlined workflow.",
+      "Riffly is a focused mobile app for musicians and music creatives. It brings together gigs, setlists, practice tracking, invoices, musician profiles, and connections in one streamlined workflow.",
   },
   {
     question: "Who is Riffly for?",
     answer:
-      "Riffly is built for working musicians of all kinds—including vocalists, instrumentalists, producers, session players, and bandleaders who need a simple, purpose-built tool to manage their music work.",
+      "Riffly is built for musicians and music creatives, including vocalists, instrumentalists, producers, session players, bandleaders, and other creatives who want a simpler way to manage their music work.",
   },
   {
     question: "What can I do with Riffly?",
     answer:
-      "With Riffly V1, you can manage your gig calendar and show details, attach setlists to gigs, log practice sessions and track goals/streaks, generate invoices for your musical work, maintain a musician profile, and connect with other musicians.",
+      "With Riffly V1, you can manage your gig calendar and show details, attach setlists to gigs, log practice sessions and track goals and streaks, generate invoices for your musical work, build a musician profile, and connect with other musicians.",
   },
   {
     question: "Can I manage my gigs with Riffly?",
     answer:
-      "Yes. Riffly includes a dedicated gig calendar where you can record upcoming and past shows, call times, venue information, lineup details, and payment notes.",
+      "Yes. Riffly includes a dedicated gig calendar where you can record upcoming and past shows, call times, venue information, lineup details, setlists, and payment notes.",
   },
   {
-    question: "Can I track my practice?",
+    question: "Can I track my practice with Riffly?",
     answer:
       "Yes. You can log individual practice sessions, set weekly practice time goals, record focus areas, and build consistent habits with practice history and streak tracking.",
   },
   {
-    question: "Can I create invoices?",
+    question: "Can I create invoices with Riffly?",
     answer:
-      "Yes. You can generate clean, professional invoices for your performance and session work directly within Riffly, ready to send to venues, promoters, or private clients.",
+      "Yes. You can generate clean, professional invoices for your performance and session work directly within Riffly.",
   },
   {
     question: "Can I connect with other musicians?",
     answer:
-      "Yes. You can create your musician profile detailing what you play, and discover and connect with other musicians in the community for collaborations, deps, and band lineups.",
+      "Yes. You can create a musician profile, discover other vocalists, instrumentalists, producers, and musicians, and connect with people for collaborations, deps, and band lineups.",
   },
   {
     question: "Is Riffly available on iOS and Android?",
     answer:
-      "Riffly is available for Android (Google Play Store) and coming soon on iOS (App Store). You can check back here or follow our channels for launch announcements.",
+      "Riffly is available on Android through Google Play, with the iOS version coming soon. Check the Riffly website or follow Riffly's channels for availability updates.",
   },
   {
     question: "What is the difference between Riffly Free and Riffly Pro?",
     answer:
-      "Riffly Free lets you log up to 10 practice sessions and manage up to 2 gigs, setlists, practice goals, and invoices every month. Riffly Pro gives you unlimited access across all features, plus practice reminders, analytics, business tools, and priority support for ₦2,500/month.",
+      "Riffly Free includes essential tools with monthly limits on practice goals, gigs, setlists, and invoices. Riffly Pro removes those limits and adds additional tools such as practice reminders, analytics, business tools, and priority support. Pro is available monthly or annually.",
   },
 ];
 
