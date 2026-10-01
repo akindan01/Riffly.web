@@ -122,6 +122,11 @@ export const FEATURES: FeatureItem[] = [
   },
 ];
 
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "What is Riffly?",
