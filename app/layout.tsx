@@ -16,7 +16,8 @@ const body = Instrument_Sans({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://riffly.click";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://riffly.click";
 
 export const viewport: Viewport = {
   themeColor: "#000000",
@@ -25,57 +26,61 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+
   title: {
-    default: "Riffly | Your music life, finally in flow",
+    default: "Riffly — The App for Working Musicians",
     template: "%s | Riffly",
   },
+
   description:
-    "Riffly helps working musicians manage gigs, setlists, practice tracking, and invoices, and connect with other musicians in one focused mobile workflow.",
-  keywords: [
-    "musician app",
-    "gig manager",
-    "setlist builder",
-    "practice tracker",
-    "musician invoices",
-    "music life",
-    "working musicians",
-  ],
+    "Riffly helps working musicians manage gigs, setlists, practice, invoices, and connections in one focused app.",
+
   authors: [{ name: "Riffly" }],
   creator: "Riffly",
   publisher: "Riffly",
+
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
+      {
+        url: "/favicon.ico",
+        sizes: "any",
+      },
     ],
     apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180" },
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+      },
     ],
   },
+
   openGraph: {
-    title: "Riffly | Your music life, finally in flow",
+    title: "Riffly — The App for Musicians & Music Creatives",
     description:
-      "Gigs, setlists, practice, and invoices together in one app built for working musicians.",
+      "Manage gigs, setlists, practice, invoices, and musician connections in one focused app built for working musicians.",
     url: siteUrl,
     siteName: "Riffly",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/public/riffly.png",
+        url: "/riffly.png",
         width: 1200,
         height: 630,
-        alt: "Riffly — Your music life, finally in flow",
+        alt: "Riffly — The App for Working Musicians",
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Riffly | Your music life, finally in flow",
+    title: "Riffly — The App for Working Musicians",
     description:
-      "Gigs, setlists, practice, and invoices together in one app built for working musicians.",
-    images: ["/public/riffly.png"],
-    creator: "@rifflyapp",
+      "Manage gigs, setlists, practice, invoices, and musician connections in one focused app built for working musicians.",
+    images: ["/riffly.png"],
+    creator: "@riffly_io",
   },
+
   robots: {
     index: true,
     follow: true,
