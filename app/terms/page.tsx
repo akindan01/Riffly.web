@@ -5,7 +5,8 @@ import { FadeIn, TextReveal, PageTransition } from "@/components/motion";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Terms and conditions for using the Riffly application and website.",
+  description:
+    "Read Riffly's Terms of Service covering accounts, subscriptions, user content, musician networking, invoices, acceptable use, and the Riffly app and website.",
 };
 
 export default function TermsOfService() {
