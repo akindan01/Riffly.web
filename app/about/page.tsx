@@ -4,9 +4,9 @@ import Stores from "@/components/Stores";
 import { FadeIn, TextReveal, StaggerContainer, StaggerItem, PageTransition } from "@/components/motion";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About Riffly — Built for Musicians & Music Creatives",
   description:
-    "Why Riffly exists: built for working musicians to bring gigs, practice, setlists, and invoices into one focused flow.",
+    "Learn why Riffly exists and how it brings gigs, practice, setlists, invoices, profiles, and connections together for musicians and music creatives.",
 };
 
 export default function About() {
@@ -42,10 +42,14 @@ export default function About() {
           </FadeIn>
 
           <FadeIn distance={18} duration={0.8}>
-            <h2>Built for working musicians</h2>
-            <p>
-              Riffly is designed specifically for working musicians and music creatives—whether you are a vocalist preparing vocal warmups, an instrumentalist tracking daily practice hours, a session player logging multiple recording dates, a producer organizing collaborators, or a bandleader organizing setlists for weekend shows.
-            </p>
+           <h2>Built for musicians and music creatives</h2>
+           <p>
+  Riffly is designed for musicians and music creatives—whether you are a
+  vocalist preparing vocal warmups, an instrumentalist tracking daily
+  practice hours, a session player logging multiple recording dates, a
+  producer organizing collaborators, or a bandleader organizing setlists
+  for weekend shows.
+</p>
           </FadeIn>
 
           <FadeIn distance={18} duration={0.8}>
