@@ -18,7 +18,7 @@ export default function Home() {
             </TextReveal>
             <FadeIn delay={0.15} duration={0.7} distance={18}>
               <p className="lede">
-                Gigs, setlists, practice and invoices, together in one app built for working musicians.
+               Gigs, setlists, practice and invoices, together in one app built for musicians and music creatives.
               </p>
             </FadeIn>
             <FadeIn delay={0.3} duration={0.6} distance={14}>
@@ -52,7 +52,10 @@ export default function Home() {
           <FadeIn distance={18} duration={0.7}>
             <div className="section-head-light">
               <span className="section-eyebrow">BUILT AROUND YOUR RHYTHM</span>
-              <h2 style={{ maxWidth: "14ch" }}>The running order of your working life.</h2>
+              <h2 style={{ maxWidth: "14ch" }}>The running order of your working life.
+
+Manage gigs, setlists, practice sessions and the everyday details
+that keep your music life moving.</h2>
             </div>
           </FadeIn>
           <RunningOrder />
@@ -72,19 +75,19 @@ export default function Home() {
             <StaggerItem>
               <div>
                 <ProductImage name="gigs" />
-                <small>Know where you are playing next.</small>
+                <small>Manage your gigs and know where you're playing next.</small>
               </div>
             </StaggerItem>
             <StaggerItem>
               <div>
                 <ProductImage name="practice" />
-                <small>Watch practice add up.</small>
+                <small>Track your practice and watch your progress add up.</small>
               </div>
             </StaggerItem>
             <StaggerItem>
               <div>
                 <ProductImage name="profile" />
-                <small>Show who you are.</small>
+                <small>Build your musician profile and show who you are.</small>
               </div>
             </StaggerItem>
           </StaggerContainer>
@@ -97,7 +100,7 @@ export default function Home() {
           <FadeIn distance={18} duration={0.7}>
             <div className="section-head" style={{ textAlign: "center", maxWidth: "600px", marginInline: "auto" }}>
               <span className="section-eyebrow">SIMPLE PRICING</span>
-              <h2>Fair pricing for working musicians.</h2>
+               <h2>Simple pricing for musicians and music creatives.</h2>
               <p className="lede" style={{ marginInline: "auto", marginTop: 14 }}>
                 Start for free with core tools, or upgrade to Riffly Pro for unlimited access.
               </p>
