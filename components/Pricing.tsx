@@ -40,11 +40,11 @@ export default function Pricing() {
       : "The best value for committed active musicians. Enjoy a full year of unlimited tools and save ₦5,000.";
 
   const freeFeatures = [
-    "Up to 10 practice logs per month",
-    "Up to 2 practice goals",
-    "Up to 2 gigs",
-    "Up to 2 setlists",
-    "Up to 2 invoices",
+    "Unlimited pratice logging",
+      "Up to 2 practice goals",
+      "Up to 2 active gigs",
+      "Up to 2 setlists",
+      "Up to 2 invoices",
   ];
 
   const proFeatures = [
