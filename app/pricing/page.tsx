@@ -8,7 +8,7 @@ import { FadeIn, TextReveal, PageTransition } from "@/components/motion";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Simple, transparent pricing for working musicians. Start free or unlock unlimited gigs, setlists, practice logs, and invoices with Riffly Pro.",
+  "Simple, transparent pricing for musicians and music creatives. Start free or upgrade to Riffly Pro for unlimited gigs, setlists, practice tracking, invoices, and more.",
 };
 
 export default function PricingPage() {
@@ -24,7 +24,7 @@ export default function PricingPage() {
         </TextReveal>
         <FadeIn delay={0.15} distance={16} duration={0.7}>
           <p className="lede" style={{ marginTop: 20 }}>
-            Get started for free with core musician tools, or upgrade to Riffly Pro for unlimited access without complex tiers.
+           Get started for free with essential tools for your music life, or upgrade to Riffly Pro for unlimited access to gigs, setlists, practice tracking, invoices, and more.
           </p>
         </FadeIn>
       </div>
