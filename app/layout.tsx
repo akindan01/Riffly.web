@@ -27,14 +27,18 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
 
+  alternates: {
+  canonical: siteUrl,
+},
+
   title: {
-    default: "Riffly — The App for Working Musicians",
+   default: "Riffly — The App for Musicians & Music Creatives",
     template: "%s | Riffly",
   },
 
-  description:
-    "Riffly helps working musicians manage gigs, setlists, practice, invoices, and connections in one focused app.",
-
+ description:
+  "Riffly helps musicians and music creatives manage gigs, setlists, practice, invoices, profiles, and connections in one focused app.",
+  
   authors: [{ name: "Riffly" }],
   creator: "Riffly",
   publisher: "Riffly",
