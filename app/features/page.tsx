@@ -8,7 +8,7 @@ import { FadeIn, TextReveal, ScaleIn, StaggerContainer, StaggerItem, PageTransit
 export const metadata: Metadata = {
   title: "Features",
   description:
-    "Explore Riffly's features for working musicians: gig calendar, setlists, practice tracking, invoice generation, musician profiles, and connections.",
+    "Explore Riffly's features for musicians and music creatives, including gig management, setlists, practice tracking, invoices, profiles, and connections.",
 };
 
 export default function Features() {
@@ -27,11 +27,11 @@ export default function Features() {
           <span className="section-eyebrow">CAPABILITIES</span>
         </FadeIn>
         <TextReveal as="h1" duration={0.85} distance={20} style={{ maxWidth: "16ch" }}>
-          Everything a working musician needs.
+          Everything you need to manage your music life.
         </TextReveal>
         <FadeIn delay={0.15} distance={16} duration={0.7}>
           <p className="lede" style={{ marginTop: 20 }}>
-            Purpose-built tools designed to keep your gigs, preparation, business, and network organized.
+          Purpose-built tools for musicians and music creatives to manage gigs, practice, setlists, invoices, and connections in one place.
           </p>
         </FadeIn>
       </div>
