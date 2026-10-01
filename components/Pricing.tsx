@@ -48,13 +48,10 @@ export default function Pricing() {
   ];
 
   const proFeatures = [
-    "Unlimited practice logs & goals",
-    "Unlimited gigs & setlists",
-    "Unlimited invoice generation",
-    "Practice reminders & analytics",
-    "Pro badge & increased visibility",
-    "Priority support",
-    "Business tools",
+     "Unlimited practice goals – Set as manu goals as you need.",
+      "Unlimited gigs – Book as many gigs as you want. No 2-gig limit.",
+      "Unlimited setlists – Create unlimited setlists for every performance.",
+      "Unlimited invoices – Bill every gig without limit.",
   ];
 
   return (
