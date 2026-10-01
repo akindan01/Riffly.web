@@ -197,6 +197,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     description: "Get organized and keep your core music routine in flow with essential monthly limits.",
     features: [
       "Unlimited pratice logging",
+       "Unlimited Networking",
       "Up to 2 practice goals",
       "Up to 2 active gigs",
       "Up to 2 setlists",
@@ -217,6 +218,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       "Unlimited gigs – Book as many gigs as you want. No 2-gig limit.",
       "Unlimited setlists – Create unlimited setlists for every performance.",
       "Unlimited invoices – Bill every gig without limit.",
+       "Unlimited Networking",
     ],
     ctaLabel: "Go Pro",
     ctaHref: "#download",
