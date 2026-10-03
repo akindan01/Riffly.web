@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.akinremi.myapp",
+            "sha256_cert_fingerprints": [
+                "FD:75:63:B3:EC:86:04:7B:A8:FD:F8:D5:30:DC:FC:6D:1F:16:F0:73:B1:F6:81:0A:DF:92:78:15:F4:51:31:59",
+                "CE:CD:92:36:80:BA:67:CF:E2:E9:39:5F:F3:24:3E:87:E0:24:35:88:1B:61:F2:FC:7A:2E:70:9D:19:0D:17:E2"
+            ]
+        }
+    }
+]
