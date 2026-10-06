@@ -19,6 +19,7 @@ export const STORES = {
 export const LEGAL = {
   privacy: "/privacy",
   terms: "/terms",
+  deleteAccount: "/delete-account",
 };
 
 export const CONTACT = {

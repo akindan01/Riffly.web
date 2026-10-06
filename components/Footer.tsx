@@ -97,6 +97,8 @@ export default function Footer() {
             <Link href={LEGAL.privacy}>Privacy Policy</Link>
             <span className="dot-sep">&bull;</span>
             <Link href={LEGAL.terms}>Terms of Service</Link>
+            <span className="dot-sep">&bull;</span>
+            <Link href={LEGAL.deleteAccount}>Delete Account</Link>
           </div>
         </div>
       </div>
