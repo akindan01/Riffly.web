@@ -10,7 +10,7 @@ export const STORES = {
   },
   android: {
     label: "Google Play",
-    href: "https://play.google.com",
+    href: "https://play.google.com/store/apps/details?id=com.akinremi.myapp",
     status: "Out now",
     isLive: true,
   },
